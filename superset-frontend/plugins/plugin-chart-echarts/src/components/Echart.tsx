@@ -139,6 +139,15 @@ function Echart(
       chartRef.current?.getZr().on(name, handler);
     });
 
+    // add custom khmer font 
+    if (echartOptions.textStyle) {
+      echartOptions.textStyle.fontFamily = `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`;
+    } else {
+      echartOptions.textStyle = {
+        fontFamily: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
+      };
+    }
+
     chartRef.current.setOption(echartOptions, true);
   }, [echartOptions, eventHandlers, zrEventHandlers]);
 

@@ -140,15 +140,9 @@ function Echart(
     });
 
     // add custom khmer font 
-    if (echartOptions.textStyle) {
-      echartOptions.textStyle.fontFamily = `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`;
-    } else {
-      echartOptions.textStyle = {
-        fontFamily: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
-      };
-    }
-
-    chartRef.current.setOption(echartOptions, true);
+    chartRef.current.setOption({...echartOptions, textStyle: {
+      fontFamily: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
+    }}, true);
   }, [echartOptions, eventHandlers, zrEventHandlers]);
 
   // highlighting

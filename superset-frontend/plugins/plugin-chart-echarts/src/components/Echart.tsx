@@ -139,10 +139,14 @@ function Echart(
       chartRef.current?.getZr().on(name, handler);
     });
 
-    // add custom khmer font 
-    chartRef.current.setOption({...echartOptions, textStyle: {
-      fontFamily: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
-    }}, true);
+    // add custom khmer font to echart
+    const newEchartOptions = {
+      ...echartOptions,
+      textStyle: {
+        fontFamily: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
+      },
+    };
+    chartRef.current.setOption(newEchartOptions, true);
   }, [echartOptions, eventHandlers, zrEventHandlers]);
 
   // highlighting

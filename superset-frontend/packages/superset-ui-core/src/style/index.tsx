@@ -32,7 +32,7 @@ export { default as createEmotionCache } from '@emotion/cache';
 
 declare module '@emotion/react' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  export interface Theme extends SupersetTheme {}
+  export interface Theme extends SupersetTheme { }
 }
 
 export function useTheme() {
@@ -134,7 +134,7 @@ const defaultTheme = {
   },
   typography: {
     families: {
-      sansSerif: `'Inter', Helvetica, Arial, 'Kantumruy Pro'`,
+      sansSerif: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
       serif: `Georgia, 'Times New Roman', Times, serif`,
       monospace: `'Fira Code', 'Courier New', monospace`,
     },

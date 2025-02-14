@@ -32,7 +32,7 @@ export { default as createEmotionCache } from '@emotion/cache';
 
 declare module '@emotion/react' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  export interface Theme extends SupersetTheme { }
+  export interface Theme extends SupersetTheme {}
 }
 
 export function useTheme() {

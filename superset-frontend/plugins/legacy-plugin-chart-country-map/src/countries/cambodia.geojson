@@ -3099,7 +3099,6 @@
       "properties": {
         "NAME_1": "Preah Vihear",
         "ISO": "KH-13"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -6254,7 +6253,6 @@
       "properties": {
         "NAME_1": "Kampong Thom",
         "ISO": "KH-6"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -9117,7 +9115,6 @@
       "properties": {
         "NAME_1": "Phnom Penh",
         "ISO": "KH-12"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -9720,7 +9717,6 @@
       "properties": {
         "NAME_1": "Koh Kong",
         "ISO": "KH-9"
-       
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13713,7 +13709,6 @@
       "properties": {
         "NAME_1": "Kampot",
         "ISO": "KH-7"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -15292,7 +15287,6 @@
       "properties": {
         "NAME_1": "Takeo",
         "ISO": "KH-21"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -16383,7 +16377,6 @@
       "properties": {
         "NAME_1": "Kandal",
         "ISO": "KH-8"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -21450,7 +21443,6 @@
       "properties": {
         "NAME_1": "Ratanakiri Province",
         "ISO": "KH-16"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -24573,7 +24565,6 @@
       "properties": {
         "NAME_1": "Kampong Chhnang",
         "ISO": "KH-4"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -26404,7 +26395,6 @@
       "properties": {
         "NAME_1": "Pailin",
         "ISO": "KH-24"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -27007,7 +26997,6 @@
       "properties": {
         "NAME_1": "Bantey Meanchey",
         "ISO": "KH-1"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -29538,7 +29527,6 @@
       "properties": {
         "NAME_1": "Siem Reap",
         "ISO": "KH-17"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -32217,7 +32205,6 @@
       "properties": {
         "NAME_1": "Oddar Meanchey",
         "ISO": "KH-22"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -36978,7 +36965,6 @@
       "properties": {
         "NAME_1": "Mondulkiri",
         "ISO": "KH-11"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -40065,7 +40051,6 @@
       "properties": {
         "NAME_1": "Kratie",
         "ISO": "KH-10"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -43468,7 +43453,6 @@
       "properties": {
         "NAME_1": "Prey Veng",
         "ISO": "KH-14"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -45023,7 +45007,6 @@
       "properties": {
         "NAME_1": "Kampong Speu",
         "ISO": "KH-5"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -47246,7 +47229,6 @@
       "properties": {
         "NAME_1": "Svay Rieng",
         "ISO": "KH-20"
-       
       },
       "geometry": {
         "type": "Polygon",
@@ -48597,7 +48579,6 @@
       "properties": {
         "NAME_1": "Preah Sihanouk",
         "ISO": "KH-18"
-       
       },
       "geometry": {
         "type": "MultiPolygon",

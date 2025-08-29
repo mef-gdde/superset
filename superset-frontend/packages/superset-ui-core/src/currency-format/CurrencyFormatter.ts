@@ -31,13 +31,19 @@ interface CurrencyFormatter {
   (value: number | null | undefined): string;
 }
 
-export const getCurrencySymbol = (currency: Partial<Currency>) =>
-  new Intl.NumberFormat('en-US', {
+export const getCurrencySymbol = (currency: Partial<Currency>) => {
+  // handle KHR symbol
+  if (currency.symbol === 'KHR') {
+    return '៛';
+  }
+
+  return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: currency.symbol,
   })
     .formatToParts(1)
     .find(x => x.type === 'currency')?.value;
+};
 
 class CurrencyFormatter extends ExtensibleFunction {
   d3Format: string;

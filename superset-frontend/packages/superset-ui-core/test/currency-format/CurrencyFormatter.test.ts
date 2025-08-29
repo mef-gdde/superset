@@ -30,6 +30,9 @@ it('getCurrencySymbol', () => {
   expect(
     getCurrencySymbol({ symbol: 'USD', symbolPosition: 'prefix' }),
   ).toEqual('$');
+  expect(
+    getCurrencySymbol({ symbol: 'KHR', symbolPosition: 'prefix' }),
+  ).toEqual('៛');
 
   expect(() =>
     getCurrencySymbol({ symbol: 'INVALID_CODE', symbolPosition: 'prefix' }),

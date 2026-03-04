@@ -28,6 +28,7 @@
     "@babel/runtime": "^7.28.2",
     "@fontsource/fira-code": "^5.2.6",
     "@fontsource/inter": "^5.2.6",
+    "@fontsource/kantumruy-pro": "^5.1.1",
     "@types/json-bigint": "^1.0.4",
     "ace-builds": "^1.43.1",
     "ag-grid-community": "^34.0.2",

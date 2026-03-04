@@ -31,6 +31,14 @@ import '@fontsource/inter/500.css';
 /* eslint-disable import/extensions */
 import '@fontsource/inter/600.css';
 /* eslint-disable import/extensions */
+import '@fontsource/kantumruy-pro/100.css';
+/* eslint-disable import/extensions */
+import '@fontsource/kantumruy-pro/200.css';
+/* eslint-disable import/extensions */
+import '@fontsource/kantumruy-pro/300.css';
+/* eslint-disable import/extensions */
+import '@fontsource/kantumruy-pro/400.css';
+/* eslint-disable import/extensions */
 import '@fontsource/fira-code/400.css';
 /* eslint-disable import/extensions */
 import '@fontsource/fira-code/500.css';
@@ -78,7 +86,7 @@ export class Theme {
     colorInfo: '#66bcfe',
 
     // Forcing some default tokens
-    fontFamily: `'Inter', Helvetica, Arial`,
+    fontFamily: `'Inter', Helvetica, Arial, 'Kantumruy Pro', sans-serif`,
     fontFamilyCode: `'Fira Code', 'Courier New', monospace`,
 
     // Extra tokens

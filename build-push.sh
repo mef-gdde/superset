@@ -1,0 +1,1 @@
+docker buildx build --platform linux/amd64,linux/arm64 -t registry-dev.e-invoice.gov.kh/data-ef/gdde-superset:6.0 --push .
